@@ -15,8 +15,8 @@
   <title>Mis animales favoritos web</title>
 </head>
 
-<body class="font-[Gaegu]">
-  <div class="bg-[url('./Imagenes/pexels-dani-muchow-2955703.jpg')] bg-cover h-screen">
+<body class="font-[Gaegu] bg-[#c4dafa]">
+  <div class="bg-[url('./Imagenes/pexels-dani-muchow-2955703.jpg')] bg-cover h-screen mb-10">
     <header class="w-full">
       <nav class="w-full flex justify-around items center">
         <div class="w-1/5">
@@ -24,14 +24,14 @@
             class="m-auto h-12">
           <img src="/Imagenes/baf06f35c1f7b474b0ab7e54de1a3f3c-removebg-preview.png" alt="icono-patita-oscuro"
             class="m-auto h-20 hidden">
-          <h2 class="text-white text-center text-xl">Mis animales favoritos web</h2>
+          <h2 class="text-[#edfffa] text-center text-xl">Mis animales favoritos web</h2>
         </div>
-        <ul class="flex justify-center align-center gap-10 text-white mt-5 w-2/4 text-xl">
+        <ul class="flex justify-center align-center gap-10 text-[#edfffa] mt-5 w-2/4 text-xl">
           <li><a href="#">Inicio</a></li>
-          <li><a href="#">Animales</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#Animales">Animales</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
         </ul>
-        <div class="flex justify-center align-center gap-8 text-white mt-5 w-1/5 text-xl">
+        <div class="flex justify-center align-center gap-8 text-[#edfffa] mt-5 w-1/5 text-xl">
           <a href="https://github.com/Malenagdiaz"><i class="fa-brands fa-github"></i></a>
           <a href="www.linkedin.com/in/malena-gerez-diaz"><i class="fa-brands fa-linkedin"></i></a>
           <a href="mailto:mgerezdiaz@gmail.com"><i class="fa-regular fa-envelope"></i></a>
@@ -40,41 +40,52 @@
     </header>
   </div>
   <main>
-    <section class="">
-      <h2 class="">Mis
+    <section class="w-full mb-10">
+      <h2 class="font-[Pacifico] text-5xl text-center text-[#131c46] pb-10" id="Animales">Mis
         animales
         favoritos</h2>
-      <div>
-        <div>
-          <img src="/Imagenes/7f4c5e522f33c6d3e7d9a58becc00c45.jpg" alt="leon">
-          <h2>León</h2>
-          <a href="#Leon">Ver características</a>
+      <div class="flex justify-evenly">
+        <div class="flex flex-col p-6 w-72 bg-[#005187] drop-shadow-md hover:scale-110">
+          <img src="/Imagenes/7f4c5e522f33c6d3e7d9a58becc00c45.jpg" alt="leon" class="w-full h-80 object-cover">
+          <h2 class="text-center text-2xl text-blue-300 mt-5">León</h2>
+          <a href="#Leon"
+            class="text-center text-2xl text-blue-300 my-5 border rounded-full border-r-blue-300 hover:bg-blue-400 hover:border-blue-400 hover:text-[#005187]">Ver
+            características</a>
         </div>
-        <div>
-          <img src="/Imagenes/aac1a6586560bdc630cc1013319acef2.jpg" alt="pantera">
-          <h2>Pantera</h2>
-          <a href="#Pantera">Ver características</a>
+        <div class="flex flex-col p-6 w-72 bg-[#005187] drop-shadow-lg hover:scale-105">
+          <img src="/Imagenes/aac1a6586560bdc630cc1013319acef2.jpg" alt="pantera" class="w-full h-80 object-cover">
+          <h2 class="text-center text-2xl text-blue-300 mt-5">Pantera</h2>
+          <a href="#Pantera"
+            class="text-center text-2xl text-blue-300 my-5 border rounded-full border-r-blue-300 hover:bg-blue-400 hover:border-blue-400 hover:text-[#005187]">Ver
+            características</a>
         </div>
-        <div>
-          <img src="/Imagenes/ae5e5ac4d1fd477b079c075339f0a97e.jpg" alt="perro">
-          <h2>Labrador</h2>
-          <a href="#Labrador">Ver características</a>
+        <div class="flex flex-col p-6 w-72 bg-[#005187] drop-shadow-lg hover:scale-105">
+          <img src="/Imagenes/ae5e5ac4d1fd477b079c075339f0a97e.jpg" alt="perro" class="w-full h-80 object-cover">
+          <h2 class="text-center text-2xl text-blue-300 mt-5">Labrador</h2>
+          <a href="#Labrador"
+            class="text-center text-2xl text-blue-300 my-5 border rounded-full border-r-blue-300 hover:bg-blue-400 hover:border-blue-400 hover:text-[#005187]">Ver
+            características</a>
         </div>
-        <div>
-          <img src="/Imagenes/ec04fa46d3cc6832aeb422686bc34961.jpg" alt="gatito">
-          <h2>Gato</h2>
-          <a href="#Gatito">Ver características</a>
+        <div class="flex flex-col p-6 w-72 bg-[#005187] drop-shadow-lg hover:scale-105">
+          <img src="/Imagenes/ec04fa46d3cc6832aeb422686bc34961.jpg" alt="gatito" class="w-full h-80 object-cover">
+          <h2 class="text-center text-2xl text-blue-300 mt-5">Gato</h2>
+          <a href="#Gatito"
+            class="text-center text-2xl text-blue-300 my-5 border rounded-full border-r-blue-300 hover:bg-blue-400 hover:border-blue-400 hover:text-[#005187]">Ver
+            características</a>
         </div>
       </div>
     </section>
-    <section>
-      <h2>Características sobre los animales</h2>
-      <div>
-        <div id="Leon">
-          <div>
-            <img src="/Imagenes/leon.jpg" alt="leon">
+    <section class="w-full mb-10">
+      <h2 class="font-[Pacifico] text-5xl text-center text-[#131c46] pb-10">Características sobre los animales</h2>
+      <div class="flex flex-col">
+        <div id="Leon" class="h-80 flex items-center justify-center bg-[#4d82bc]">
+          <div class="w-96">
+            <img src="/Imagenes/leon.jpg" alt="leon" class="w-full h-60 object-cover rounded-lg">
           </div>
-          <p>El león, científicamente conocido como Panthera leo, es uno de los grandes felinos y es conocido por su
+          <p class="pl-10 w-1/2 text-lg text-white">El león, científicamente conocido como Panthera leo, es uno de
+            los grandes
+            felinos
+            y es conocido por su
             melena
             distintiva en los machos. Son carnívoros y habitan en regiones de África y algunas partes de Asia. Los
             leones
@@ -86,11 +97,13 @@
             a menudo asociados con la fuerza, el coraje y la nobleza en diversas culturas.</p>
         </div>
         <div>
-          <div id="Pantera">
-            <div>
-              <img src="/Imagenes/panteranegra.jpg" alt="pantera">
+          <div id="Pantera" class="h-80 flex items-center justify-center flex-row-reverse bg-[#84b6f4]">
+            <div class="w-96">
+              <img src="/Imagenes/panteranegra.jpg" alt="pantera" class="w-full h-60 object-cover rounded-lg">
             </div>
-            <p>La pantera negra se refiere a cualquier leopardo (Panthera pardus) o jaguar (Panthera onca) con una
+            <p class="pr-10 w-1/2 text-lg text-white">La pantera negra se refiere a cualquier leopardo (Panthera pardus)
+              o jaguar
+              (Panthera onca) con una
               variación genética
               que produce un pelaje negro. Aunque el término "pantera negra" se usa comúnmente, no representa una
               especie separada.
@@ -104,11 +117,13 @@
           </div>
         </div>
         <div>
-          <div class="Labrador">
-            <div>
-              <img src="/Imagenes/retriever.jpg" alt="perro">
+          <div id="Labrador" class="h-80 flex items-center justify-center bg-[#4d82bc]">
+            <div class="w-96">
+              <img src="/Imagenes/retriever.jpg" alt="perro" class="w-full h-60 object-cover rounded-lg">
             </div>
-            <p>El Labrador Retriever es conocido por ser amigable, inteligente y adaptable. Es una raza de perro leal y
+            <p class="pl-10 w-1/2 text-lg text-white">El Labrador Retriever es conocido por ser amigable, inteligente y
+              adaptable.
+              Es una raza de perro leal y
               juguetona, con
               una naturaleza amigable que lo hace ideal como mascota familiar. Además, los Labradores son perros
               versátiles,
@@ -119,11 +134,13 @@
           </div>
         </div>
         <div>
-          <div id="Gatito">
-            <div>
-              <img src="/Imagenes/gatito.jpg" alt="gatito">
+          <div id="Gatito" class="h-80 flex items-center justify-center flex-row-reverse bg-[#84b6f4]">
+            <div class="w-96">
+              <img src="/Imagenes/gatito.jpg" alt="gatito" class="w-full h-60 object-cover rounded-lg">
             </div>
-            <p>Los gatos, domesticados desde hace miles de años, son conocidos por su independencia, agilidad y
+            <p class="pr-10 w-1/2 text-lg text-white">Los gatos, domesticados desde hace miles de años, son conocidos
+              por su
+              independencia, agilidad y
               naturaleza afectuosa.
               Son mascotas populares debido a su capacidad para adaptarse a diversos entornos y estilos de vida. Los
               gatos son
@@ -140,42 +157,49 @@
         </div>
       </div>
     </section>
-    <section>
-      <p>Estos fueron mis animales favoritos, ahora quisiera saber los tuyos!</p>
-      <form>
-        <h2>Háblame</h2>
-        <div>
-          <div>
-            <label for="name">Nombre:</label>
-            <input type="text" name="name" placeholder="Pon aquí tu nombre">
+    <section class="w-full mb-12">
+      <p class="font-[Pacifico] text-4xl text-center text-[#131c46] pb-10">Estos fueron mis animales favoritos, ahora
+        quisiera saber los tuyos!</p>
+      <form action="https://submit-form.com/O4kSs7o0C"
+        class="flex flex-col w-8/12 m-auto rounded-lg p-8 drop-shadow-md bg-[url('./Imagenes/573b76b94e8c71cec32b98a17560914a.gif')] bg-no-repeat bg-cover"
+        id="Contacto">
+        <h2 class="font-[Pacifico] text-4xl text-[#131c46]">Háblame</h2>
+        <div class="flex flex-col m-auto w-11/12">
+          <div class="flex flex-col">
+            <label for="name" class="py-6 text-[#131c46] text-2xl">Nombre:</label>
+            <input type="text" name="name" placeholder="Pon aquí tu nombre"
+              class="w-full bg-[#c4dafa] bg-opacity-80 rounded-lg drop-shadow h-9 p-2 placeholder-[#131c46]">
           </div>
-          <div>
-            <label for="email">Tu email:</label>
-            <input type="email" name="email" placeholder="Pon aquí tu email">
+          <div class="flex flex-col">
+            <label for="email" class="py-6 text-[#131c46] text-2xl">Tu email:</label>
+            <input type="email" name="email" placeholder="Pon aquí tu email"
+              class="w-full bg-[#c4dafa] bg-opacity-80 rounded-lg drop-shadow h-9 p-2 placeholder-[#131c46]">
           </div>
-          <div>
-            <label for="comments">Comentarios:</label>
-            <textarea name="comments" placeholder="Pon aquí tu comentario..."></textarea>
+          <div class="flex flex-col">
+            <label for="comments" class="py-6 text-[#131c46] text-2xl">Comentarios:</label>
+            <textarea name="comments" placeholder="Pon aquí tu comentario..."
+              class="w-full drop-shadow m-auto rounded-lg p-2 h-48 bg-[#c4dafa] bg-opacity-80 placeholder-[#131c46]"></textarea>
           </div>
         </div>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar"
+          class="mt-10 p-2 text-[#fcffff] text-lg bg-[#4d82bc] hover:bg-[#131c46] rounded-full m-auto cursor-pointer">
       </form>
     </section>
   </main>
-  <footer>
-    <div>
-      <ul class="">
+  <footer class="bg-[#005187] h-52">
+    <div class="flex flex-col justify-center items-center">
+      <ul class="flex justify-center align-center gap-8 text-[#edfffa] mt-8 w-1/5 text-xl">
         <li><a href="#">Inicio</a></li>
-        <li><a href="#">Animales</a></li>
-        <li><a href="#">Contacto</a></li>
+        <li><a href="#Animales">Animales</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
       </ul>
-      <div class="">
+      <div class="flex justify-center align-center gap-8 text-[#edfffa] mt-8 w-1/5 text-xl">
         <a href="https://github.com/Malenagdiaz"><i class="fa-brands fa-github"></i></a>
         <a href="www.linkedin.com/in/malena-gerez-diaz"><i class="fa-brands fa-linkedin"></i></a>
         <a href="mailto:mgerezdiaz@gmail.com"><i class="fa-regular fa-envelope"></i></a>
       </div>
     </div>
-    <p>Hecho con 🤍 por Malena</p>
+    <p class="text-center text-[#edfffa] mt-8 text-xl">Hecho con 🤍 por Malena</p>
   </footer>
 </body>
 
